@@ -24,6 +24,7 @@ def calculate_contact_map(structure, threshold=8.0):
 
     return contact_map
 
+# cechy mapy 
 def plot_contact_map(contact_map):
     plt.imshow(contact_map, cmap='binary', interpolation='none')
     plt.xlabel('Residues')
